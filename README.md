@@ -1,5 +1,5 @@
 ## gallery-metabox
-===============
+
 Extract this folder inside plugin directory and activate the plugin to use Gallery metaboxes with post types.
 
 There are Two plugins for Image and Video Gallery, Activate them as per your need.
@@ -7,13 +7,13 @@ There are Two plugins for Image and Video Gallery, Activate them as per your nee
 If you do not want to create a new plugin, You can also copy the code in your Plugin main file and use it from there.
 
 ### How to use
-==============
+
 `$cpt = array( 'post' );`
 `$types = array( 'post' );`
 You can insert multiple Post Types along with Custom Post Type using the array. Just type the name of the post-type.
 
 ### Working
-==============
+
 The code can be refactored into multiple steps :-
 
 #### 1. Enqueueing Style and Script.
